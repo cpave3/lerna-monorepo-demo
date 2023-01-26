@@ -9,4 +9,5 @@ build:
 
 test:
     COPY . ./
+    RUN npm install
     RUN npx lerna run test
